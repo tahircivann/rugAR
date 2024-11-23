@@ -1,3 +1,4 @@
+// ProductSection.tsx
 import React, { useRef, useEffect, useState } from 'react';
 import { HelpCircle, Palette, Edit, Maximize2, Smartphone } from 'lucide-react';
 
@@ -11,8 +12,9 @@ interface Product {
 }
 
 export default function ProductSection({ product }: { product: Product }) {
-  const modelViewerRef = useRef(null);
+  const modelViewerRef = useRef<HTMLElement>(null);
   const [isARSupported, setIsARSupported] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Check if AR is supported on the device
@@ -23,6 +25,30 @@ export default function ProductSection({ product }: { product: Product }) {
     };
     
     checkARSupport();
+  }, []);
+
+  useEffect(() => {
+    const modelViewer = modelViewerRef.current;
+
+    const handleLoad = () => {
+      setIsLoading(false);
+    };
+
+    const handleError = () => {
+      setIsLoading(false);
+    };
+
+    if (modelViewer) {
+      modelViewer.addEventListener('load', handleLoad);
+      modelViewer.addEventListener('error', handleError);
+    }
+
+    return () => {
+      if (modelViewer) {
+        modelViewer.removeEventListener('load', handleLoad);
+        modelViewer.removeEventListener('error', handleError);
+      }
+    };
   }, []);
 
   const handleARButtonClick = () => {
@@ -51,6 +77,14 @@ export default function ProductSection({ product }: { product: Product }) {
           
           <div className="p-8 flex flex-col lg:flex-row items-center justify-between">
             <div className="lg:w-1/2 w-full relative aspect-w-16 aspect-h-9" style={{ minHeight: '20rem' }}>
+              {isLoading && (
+                <div className="absolute inset-0 flex items-center justify-center bg-white/75">
+                  <svg className="animate-spin h-8 w-8 text-[#ff4d31]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                  </svg>
+                </div>
+              )}
               <model-viewer
                 ref={modelViewerRef}
                 src={product.modelSrc}
