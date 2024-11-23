@@ -24,9 +24,13 @@ const products = [
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
+    
+    <div className="absoulte min-h-screen bg-white bottom-[-10px]" style={{ fontFamily: 'Inter, sans-serif' }}>
+      
       <Navbar />
       <Hero />
+      <h1 className="text-5xl font-bold leading-tight mb-6">
+      </h1>
       <h2 className="text-4xl font-bold text-center mb-6">
         Increase Your Sales With 'See At Home' Technology
       </h2>
