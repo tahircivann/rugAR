@@ -1,6 +1,6 @@
-// ProductSection.tsx
 import React, { useRef, useEffect, useState } from 'react';
 import { HelpCircle, Palette, Edit, Maximize2, Smartphone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 // Define the Product interface
 interface Product {
@@ -12,6 +12,7 @@ interface Product {
 }
 
 export default function ProductSection({ product }: { product: Product }) {
+  const { t } = useTranslation();
   const modelViewerRef = useRef<HTMLElement>(null);
   const [isARSupported, setIsARSupported] = useState(true);
   const [isLoading, setIsLoading] = useState(true);
@@ -53,7 +54,7 @@ export default function ProductSection({ product }: { product: Product }) {
 
   const handleARButtonClick = () => {
     if (!isARSupported) {
-      alert('AR is not supported on this device. Please try using a mobile device.');
+      alert(t('product.arNotSupported'));
       return;
     }
 
@@ -119,7 +120,7 @@ export default function ProductSection({ product }: { product: Product }) {
               <h3 className="text-3xl font-bold mb-4">{product.name}</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
-                  <span className="text-gray-600">Size:</span>
+                  <span className="text-gray-600">{t('product.size')}:</span>
                   <div className="flex space-x-2">
                     {product.sizes.map(size => (
                       <button key={size} className="px-4 py-2 border rounded-md hover:bg-gray-50">
@@ -129,7 +130,7 @@ export default function ProductSection({ product }: { product: Product }) {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <span className="text-gray-600">Color:</span>
+                  <span className="text-gray-600">{t('product.color')}:</span>
                   <div className="flex space-x-2">
                     {product.colors.map(color => (
                       <button
@@ -145,11 +146,11 @@ export default function ProductSection({ product }: { product: Product }) {
                   className="w-full bg-[#ff4d31] text-white py-3 rounded-lg flex items-center justify-center space-x-2 hover:bg-[#e63e2a] transition-colors"
                 >
                   <Smartphone className="w-5 h-5" />
-                  <span className="text-lg font-semibold">View In Space</span>
+                  <span className="text-lg font-semibold">{t('product.viewInSpace')}</span>
                 </button>
                 {!isARSupported && (
                   <p className="text-sm text-gray-500 text-center">
-                    AR viewing is only available on compatible mobile devices
+                    {t('product.arNotSupported')}
                   </p>
                 )}
               </div>

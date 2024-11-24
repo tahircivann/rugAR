@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <div className="pt-16 min-h-screen bg-gradient-to-br from-white to-pink-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -8,15 +11,13 @@ export default function Hero() {
           {/* Text Section */}
           <div className="lg:w-1/2 mb-10 lg:mb-0">
             <h1 className="text-5xl font-bold leading-tight mb-6">
-              Deliver Your Carpets to Your Customers' Homes Virtually
+              {t('hero.title')}
             </h1>
             <p className="text-xl text-gray-600 mb-8">
-              Let your customers experience all the carpets in your product range in their homes, 
-              with various size, color and texture options, through their smartphones and buy them 
-              with confidence.
+              {t('hero.description')}
             </p>
             <button className="bg-[#ff4d31] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e63e2a] transition-colors">
-              Request Demo
+              {t('hero.demo')}
             </button>
           </div>
           

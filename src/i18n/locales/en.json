@@ -1,0 +1,23 @@
+{
+    "nav": {
+      "home": "Home",
+      "products": "Product / Services",
+      "about": "About Us",
+      "blog": "Blog",
+      "contact": "Contact",
+      "career": "Career"
+    },
+    "hero": {
+      "title": "Deliver Your Carpets to Your Customers' Homes Virtually",
+      "description": "Let your customers experience all the carpets in your product range in their homes, with various size, color and texture options, through their smartphones and buy them with confidence.",
+      "demo": "Request Demo"
+    },
+    "product": {
+      "title": "Increase Your Sales With 'See At Home' Technology",
+      "description": "By offering your customers 'See at Home' technology, you can make it easy for them to find the right product for their floors, curtains and furniture. This technology allows them to choose from thousands of products without the need for architectural consultancy, leading to increased sales conversion rates.",
+      "size": "Size",
+      "color": "Color",
+      "viewInSpace": "View In Space",
+      "arNotSupported": "AR viewing is only available on compatible mobile devices"
+    }
+  }
