@@ -4,8 +4,7 @@
       "products": "Product / Services",
       "about": "About Us",
       "blog": "Blog",
-      "contact": "Contact",
-      "career": "Career"
+      "contact": "Contact"
     },
     "hero": {
       "title": "Deliver Your Carpets to Your Customers' Homes Virtually",
@@ -19,5 +18,14 @@
       "color": "Color",
       "viewInSpace": "View In Space",
       "arNotSupported": "AR viewing is only available on compatible mobile devices"
+    },
+    "about": {
+      "title": "Meet Our Team",
+      "description": "We are passionate about delivering the best carpets to your homes through innovative technology.",
+      "person1Description": "3D Software Engineer, specializing in creating realistic 3D models of carpets.",
+      "person2Description": "Business Development Manager, specializing in creating partnerships with carpet manufacturers.",
+      "referencesTitle": "Refrences",
+      "reference1": "rugAR transformed our home shopping experience!",
+      "reference2": "Exceptional quality and outstanding customer service."
     }
   }

@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProductSection from './components/ProductSection';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AboutUs from './components/AboutUs';
 
 // Define your products
 const products = [
@@ -27,21 +29,30 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div className="absoulte min-h-screen bg-white bottom-[-10px]" style={{ fontFamily: 'Inter, sans-serif' }}>
-      <Navbar />
-      <Hero />
-      <h1 className="text-5xl font-bold leading-tight mb-6">
-      </h1>
-      <h2 className="text-4xl font-bold text-center mb-6">
-        {t('product.title')}
-      </h2>
-      <p className="text-gray-600 text-center max-w-3xl mx-auto mb-16">
-        {t('product.description')}
-      </p>
-      {products.map((product, index) => (
-        <ProductSection key={index} product={product} />
-      ))}
-    </div>
+    <Router>
+      <div className="absoulte min-h-screen bg-white bottom-[-10px]" style={{ fontFamily: 'Inter, sans-serif' }}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <h1 className="text-5xl font-bold leading-tight mb-6">
+              </h1>
+              <h2 className="text-4xl font-bold text-center mb-6">
+                {t('product.title')}
+              </h2>
+              <p className="text-gray-600 text-center max-w-3xl mx-auto mb-16">
+                {t('product.description')}
+              </p>
+              {products.map((product, index) => (
+                <ProductSection key={index} product={product} />
+              ))}
+            </>
+          } />
+          <Route path="/about-us" element={<AboutUs />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

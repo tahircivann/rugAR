@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Layers, ChevronDown } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const languages = [
   { code: 'en', name: 'English', flag: 'us' },
@@ -32,11 +33,10 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.home')}</a>
-            <a href="#" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.products')}</a>
-            <a href="#" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.about')}</a>
-            <a href="#" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.blog')}</a>
-            <a href="#" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.contact')}</a>
+            <Link to="/" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.home')}</Link>
+            <Link to="/products" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.products')}</Link>
+            <Link to="/about-us" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.about')}</Link>
+
           </div>
 
           <div className="flex items-center space-x-4">
@@ -74,7 +74,7 @@ export default function Navbar() {
               )}
             </div>
             <button className="bg-[#ff4d31] text-white px-6 py-2 rounded-full hover:bg-[#e63e2a] transition-colors">
-              {t('nav.career')}
+              {t('nav.contact')}
             </button>
           </div>
         </div>

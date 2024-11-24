@@ -14,3 +14,44 @@ body {
 .gradient-bg {
   background: linear-gradient(135deg, #fff5f5 0%, #fff 100%);
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+/* Keyframes for scrolling right */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.5;
+  }
+  10% {
+    opacity: 1;
+  }
+  
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Extend Tailwind with the new animation */
+@layer utilities {
+  .animate-scroll-right {
+    animation: scroll-right 40s linear infinite;
+  }
+}
