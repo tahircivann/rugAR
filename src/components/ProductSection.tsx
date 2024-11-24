@@ -77,7 +77,7 @@ export default function ProductSection({ product }: { product: Product }) {
           </div>
           
           <div className="p-8 flex flex-col lg:flex-row items-center justify-between">
-            <div className="lg:w-1/2 w-full relative aspect-w-16 aspect-h-9" style={{ minHeight: '20rem' }}>
+            <div className="lg:w-1/2 w-full relative" style={{ minHeight: '20rem' }}>
               {isLoading && (
                 <div className="absolute inset-0 flex items-center justify-center bg-white/75">
                   <svg className="animate-spin h-8 w-8 text-[#ff4d31]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -100,7 +100,7 @@ export default function ProductSection({ product }: { product: Product }) {
                 shadow-intensity="1"
                 interaction-prompt="auto"
                 className="w-full h-full"
-                style={{ minHeight: '20rem' }}
+                style={{ minHeight: '20rem' , minWidth: '100%' }}
               >
                 <button 
                   slot="ar-button"
@@ -109,7 +109,7 @@ export default function ProductSection({ product }: { product: Product }) {
                 </button>
               </model-viewer>
               <button 
-                onClick={() => document.querySelector('model-viewer')?.requestFullscreen()}
+                onClick={() => modelViewerRef.current?.requestFullscreen()}
                 className="absolute top-4 right-4 bg-white/80 p-2 rounded-full hover:bg-white transition-colors"
               >
                 <Maximize2 className="w-5 h-5 text-gray-700" />
