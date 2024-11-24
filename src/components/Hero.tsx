@@ -25,7 +25,7 @@ export default function Hero() {
           <div className="lg:w-1/2 relative flex items-center justify-center">
             <div className="relative w-[300px] h-[600px]">
               {/* 3D Pop-Out Carpet */}
-              <div className="absolute bottom-[-10px] left-[50%] transform -translate-x-1/2 w-[250px] scale-[2.5]">
+              <div className="absolute bottom-[-10px] left-[50%] transform -translate-x-1/2 w-[250px] scale-[2.0]">
                 <img
                   src="https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/velvet-armchair.png?v=1732390182086"
                   alt="3D Pop-Out Carpet"
