@@ -33,7 +33,7 @@ function App() {
       <div className="absoulte min-h-screen bg-white bottom-[-10px]" style={{ fontFamily: 'Inter, sans-serif' }}>
         <Navbar />
         <Routes>
-          <Route path="/" element={
+          <Route path="/rugAR" element={
             <>
               <Hero />
               <h1 className="text-5xl font-bold leading-tight mb-6">
