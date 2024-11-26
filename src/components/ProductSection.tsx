@@ -67,7 +67,7 @@ export default function ProductSection({ product }: { product: Product }) {
   };
 
   return (
-    <div className="bg-white py-20">
+    <div className="bg-white py-20" data-product-section>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="flex items-center space-x-4 p-4 border-b">

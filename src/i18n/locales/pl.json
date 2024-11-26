@@ -10,7 +10,8 @@
   "hero": {
     "title": "Dostarczaj swoje dywany wirtualnie do domów klientów",
     "description": "Pozwól swoim klientom doświadczyć wszystkich dywanów z Twojej oferty produktowej w ich domach, z różnymi opcjami rozmiaru, koloru i tekstury, przez ich smartfony i kupować je z pewnością.",
-    "demo": "Poproś o demo"
+    "demo": "Poproś o demo",
+    "tryNow": "Wypróbuj teraz"
   },
   "product": {
     "title": "Zwiększ sprzedaż dzięki technologii 'Zobacz w domu'",

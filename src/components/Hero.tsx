@@ -8,6 +8,13 @@ export default function Hero() {
     window.open('https://calendar.app.google/ue5ud9MJgQPYwUZq8', '_blank');
   };
 
+  const scrollToFirstProduct = () => {
+    const firstProduct = document.querySelector('[data-product-section]');
+    if (firstProduct) {
+      firstProduct.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="pt-16 min-h-screen bg-gradient-to-br from-white to-pink-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -20,12 +27,20 @@ export default function Hero() {
             <p className="text-xl text-gray-600 mb-8">
               {t('hero.description')}
             </p>
-            <button 
-              onClick={handleDemoClick}
-              className="bg-[#ff4d31] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e63e2a] transition-colors"
-            >
-              {t('hero.demo')}
-            </button>
+            <div className="space-y-4">
+              <button 
+                onClick={handleDemoClick}
+                className="w-full sm:w-auto bg-[#ff4d31] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e63e2a] transition-colors"
+              >
+                {t('hero.demo')}
+              </button>
+              <button 
+                onClick={scrollToFirstProduct}
+                className="w-full sm:w-auto bg-white text-[#ff4d31] border-2 border-[#ff4d31] px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#fff5f5] transition-colors block sm:inline-block sm:ml-4"
+              >
+                {t('hero.tryNow')}
+              </button>
+            </div>
           </div>
           
           {/* Image Section */}
