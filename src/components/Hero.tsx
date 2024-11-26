@@ -4,6 +4,10 @@ import { useTranslation } from 'react-i18next';
 export default function Hero() {
   const { t } = useTranslation();
 
+  const handleDemoClick = () => {
+    window.open('https://calendar.app.google/ue5ud9MJgQPYwUZq8', '_blank');
+  };
+
   return (
     <div className="pt-16 min-h-screen bg-gradient-to-br from-white to-pink-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -16,7 +20,10 @@ export default function Hero() {
             <p className="text-xl text-gray-600 mb-8">
               {t('hero.description')}
             </p>
-            <button className="bg-[#ff4d31] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e63e2a] transition-colors">
+            <button 
+              onClick={handleDemoClick}
+              className="bg-[#ff4d31] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#e63e2a] transition-colors"
+            >
               {t('hero.demo')}
             </button>
           </div>
