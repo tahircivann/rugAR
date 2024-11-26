@@ -20,6 +20,13 @@
     "viewInSpace": "Im Raum ansehen",
     "arNotSupported": "AR-Ansicht ist nur auf kompatiblen Mobilgeräten verfügbar"
   },
+  "about": {
+    "title": "Unser Team",
+    "description": "Wir sind ein engagiertes Team von Fachleuten, die sich der Revolutionierung des Teppichkauferlebnisses durch innovative AR-Technologie verschrieben haben.",
+    "person1Description": "3D-Software-Ingenieur, spezialisiert auf die Erstellung realistischer 3D-Modelle von Teppichen.",
+    "person2Description": "Business Development Manager, spezialisiert auf die Entwicklung von Partnerschaften mit Teppichherstellern.",
+    "referencesTitle": "Vertraut von führenden Marken"
+  },
   "footer": {
     "description": "Erleben Sie die Zukunft des Teppichkaufs mit unserer Augmented-Reality-Technologie. Probieren Sie es vor dem Kauf in Ihrem eigenen Raum aus.",
     "quickLinks": "Schnellzugriff",

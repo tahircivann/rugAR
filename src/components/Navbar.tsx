@@ -34,7 +34,7 @@ export default function Navbar() {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/rugAR" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.home')}</Link>
+            <Link to="/" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.home')}</Link>
             <Link to="/products" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.products')}</Link>
             <Link to="/about-us" className="text-gray-700 hover:text-[#ff4d31]">{t('nav.about')}</Link>
           </div>

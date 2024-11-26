@@ -34,7 +34,7 @@ function App() {
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/rugAR" element={
+            <Route path="/" element={
               <>
                 <Hero />
                 <h2 className="text-4xl font-bold text-center mb-6">

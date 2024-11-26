@@ -44,7 +44,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/rugAR" className="text-gray-400 hover:text-[#ff4d31]">
+                <Link to="/" className="text-gray-400 hover:text-[#ff4d31]">
                   {t('nav.home')}
                 </Link>
               </li>

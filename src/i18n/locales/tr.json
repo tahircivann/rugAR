@@ -20,6 +20,13 @@
     "viewInSpace": "Mekanda Gör",
     "arNotSupported": "AR görünümü yalnızca uyumlu mobil cihazlarda kullanılabilir"
   },
+  "about": {
+    "title": "Ekibimizle Tanışın",
+    "description": "Yenilikçi AR teknolojisi ile halı alışverişi deneyimini devrimleştirmeye kendini adamış profesyonel bir ekibiz.",
+    "person1Description": "Halıların gerçekçi 3D modellerini oluşturmada uzmanlaşmış 3D Yazılım Mühendisi.",
+    "person2Description": "Halı üreticileri ile ortaklıklar kurmada uzmanlaşmış İş Geliştirme Müdürü.",
+    "referencesTitle": "Önde Gelen Markalar Tarafından Güvenilen"
+  },
   "footer": {
     "description": "Artırılmış gerçeklik teknolojimizle halı alışverişinin geleceğini deneyimleyin. Satın almadan önce kendi mekanınızda deneyin.",
     "quickLinks": "Hızlı Bağlantılar",

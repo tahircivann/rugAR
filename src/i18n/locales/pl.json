@@ -20,6 +20,13 @@
     "viewInSpace": "Zobacz w przestrzeni",
     "arNotSupported": "Widok AR jest dostępny tylko na kompatybilnych urządzeniach mobilnych"
   },
+  "about": {
+    "title": "Poznaj nasz zespół",
+    "description": "Jesteśmy zaangażowanym zespołem profesjonalistów, którzy dążą do zrewolucjonizowania doświadczenia zakupu dywanów poprzez innowacyjną technologię AR.",
+    "person1Description": "Inżynier oprogramowania 3D, specjalizujący się w tworzeniu realistycznych modeli 3D dywanów.",
+    "person2Description": "Manager rozwoju biznesu, specjalizujący się w tworzeniu partnerstw z producentami dywanów.",
+    "referencesTitle": "Zaufali nam wiodący producenci"
+  },
   "footer": {
     "description": "Doświadcz przyszłości zakupów dywanów dzięki naszej technologii rozszerzonej rzeczywistości. Wypróbuj przed zakupem, bezpośrednio w swojej przestrzeni.",
     "quickLinks": "Szybkie linki",

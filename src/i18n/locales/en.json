@@ -20,6 +20,13 @@
     "viewInSpace": "View In Space",
     "arNotSupported": "AR viewing is only available on compatible mobile devices"
   },
+  "about": {
+    "title": "Meet Our Team",
+    "description": "We are a dedicated team of professionals committed to revolutionizing the carpet shopping experience through innovative AR technology.",
+    "person1Description": "3D Software Engineer, specializing in creating realistic 3D models of carpets.",
+    "person2Description": "Business Development Manager, specializing in creating partnerships with carpet manufacturers.",
+    "referencesTitle": "Trusted By Leading Brands"
+  },
   "footer": {
     "description": "Experience the future of carpet shopping with our augmented reality technology. Try before you buy, right in your own space.",
     "quickLinks": "Quick Links",
