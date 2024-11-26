@@ -1,23 +1,29 @@
 {
-    "nav": {
-      "home": "Startseite",
-      "products": "Produkte / Dienstleistungen",
-      "about": "Über uns",
-      "blog": "Blog",
-      "contact": "Kontakt",
-      "career": "Karriere"
-    },
-    "hero": {
-      "title": "Liefern Sie Ihre Teppiche virtuell in die Häuser Ihrer Kunden",
-      "description": "Lassen Sie Ihre Kunden alle Teppiche aus Ihrem Produktsortiment in ihren Häusern erleben, mit verschiedenen Größen-, Farb- und Texturoptionen, über ihre Smartphones und kaufen Sie sie mit Vertrauen.",
-      "demo": "Demo anfordern"
-    },
-    "product": {
-      "title": "Steigern Sie Ihre Verkäufe mit 'Zu Hause sehen' Technologie",
-      "description": "Indem Sie Ihren Kunden die 'Zu Hause sehen' Technologie anbieten, können Sie es ihnen leicht machen, das richtige Produkt für ihre Böden, Vorhänge und Möbel zu finden. Diese Technologie ermöglicht es ihnen, aus Tausenden von Produkten zu wählen, ohne architektonische Beratung zu benötigen.",
-      "size": "Größe",
-      "color": "Farbe",
-      "viewInSpace": "Im Raum ansehen",
-      "arNotSupported": "AR-Ansicht ist nur auf kompatiblen Mobilgeräten verfügbar"
-    }
+  "nav": {
+    "home": "Startseite",
+    "products": "Produkte / Dienstleistungen",
+    "about": "Über uns",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "career": "Karriere"
+  },
+  "hero": {
+    "title": "Liefern Sie Ihre Teppiche virtuell in die Häuser Ihrer Kunden",
+    "description": "Lassen Sie Ihre Kunden alle Teppiche aus Ihrem Produktsortiment in ihren Häusern erleben, mit verschiedenen Größen-, Farb- und Texturoptionen, über ihre Smartphones und kaufen Sie sie mit Vertrauen.",
+    "demo": "Demo anfordern"
+  },
+  "product": {
+    "title": "Steigern Sie Ihre Verkäufe mit 'Zu Hause sehen' Technologie",
+    "description": "Indem Sie Ihren Kunden die 'Zu Hause sehen' Technologie anbieten, können Sie es ihnen leicht machen, das richtige Produkt für ihre Böden, Vorhänge und Möbel zu finden. Diese Technologie ermöglicht es ihnen, aus Tausenden von Produkten zu wählen, ohne architektonische Beratung zu benötigen.",
+    "size": "Größe",
+    "color": "Farbe",
+    "viewInSpace": "Im Raum ansehen",
+    "arNotSupported": "AR-Ansicht ist nur auf kompatiblen Mobilgeräten verfügbar"
+  },
+  "footer": {
+    "description": "Erleben Sie die Zukunft des Teppichkaufs mit unserer Augmented-Reality-Technologie. Probieren Sie es vor dem Kauf in Ihrem eigenen Raum aus.",
+    "quickLinks": "Schnellzugriff",
+    "contactInfo": "Kontaktinformationen",
+    "rights": "Alle Rechte vorbehalten."
   }
+}

@@ -1,23 +1,29 @@
 {
-    "nav": {
-      "home": "Strona główna",
-      "products": "Produkty / Usługi",
-      "about": "O nas",
-      "blog": "Blog",
-      "contact": "Kontakt",
-      "career": "Kariera"
-    },
-    "hero": {
-      "title": "Dostarczaj swoje dywany wirtualnie do domów klientów",
-      "description": "Pozwól swoim klientom doświadczyć wszystkich dywanów z Twojej oferty produktowej w ich domach, z różnymi opcjami rozmiaru, koloru i tekstury, przez ich smartfony i kupować je z pewnością.",
-      "demo": "Poproś o demo"
-    },
-    "product": {
-      "title": "Zwiększ sprzedaż dzięki technologii 'Zobacz w domu'",
-      "description": "Oferując klientom technologię 'Zobacz w domu', możesz ułatwić im znalezienie odpowiedniego produktu do ich podłóg, zasłon i mebli. Ta technologia pozwala im wybierać spośród tysięcy produktów bez potrzeby konsultacji architektonicznej.",
-      "size": "Rozmiar",
-      "color": "Kolor",
-      "viewInSpace": "Zobacz w przestrzeni",
-      "arNotSupported": "Widok AR jest dostępny tylko na kompatybilnych urządzeniach mobilnych"
-    }
+  "nav": {
+    "home": "Strona główna",
+    "products": "Produkty / Usługi",
+    "about": "O nas",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "career": "Kariera"
+  },
+  "hero": {
+    "title": "Dostarczaj swoje dywany wirtualnie do domów klientów",
+    "description": "Pozwól swoim klientom doświadczyć wszystkich dywanów z Twojej oferty produktowej w ich domach, z różnymi opcjami rozmiaru, koloru i tekstury, przez ich smartfony i kupować je z pewnością.",
+    "demo": "Poproś o demo"
+  },
+  "product": {
+    "title": "Zwiększ sprzedaż dzięki technologii 'Zobacz w domu'",
+    "description": "Oferując klientom technologię 'Zobacz w domu', możesz ułatwić im znalezienie odpowiedniego produktu do ich podłóg, zasłon i mebli. Ta technologia pozwala im wybierać spośród tysięcy produktów bez potrzeby konsultacji architektonicznej.",
+    "size": "Rozmiar",
+    "color": "Kolor",
+    "viewInSpace": "Zobacz w przestrzeni",
+    "arNotSupported": "Widok AR jest dostępny tylko na kompatybilnych urządzeniach mobilnych"
+  },
+  "footer": {
+    "description": "Doświadcz przyszłości zakupów dywanów dzięki naszej technologii rozszerzonej rzeczywistości. Wypróbuj przed zakupem, bezpośrednio w swojej przestrzeni.",
+    "quickLinks": "Szybkie linki",
+    "contactInfo": "Informacje kontaktowe",
+    "rights": "Wszelkie prawa zastrzeżone."
   }
+}

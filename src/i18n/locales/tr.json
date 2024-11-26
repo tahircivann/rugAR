@@ -1,23 +1,29 @@
 {
-    "nav": {
-      "home": "Ana Sayfa",
-      "products": "Ürünler / Hizmetler",
-      "about": "Hakkımızda",
-      "blog": "Blog",
-      "contact": "İletişim",
-      "career": "Kariyer"
-    },
-    "hero": {
-      "title": "Halılarınızı Müşterilerinizin Evlerine Sanal Olarak Ulaştırın",
-      "description": "Müşterilerinizin, ürün yelpazenizde bulunan tüm halıları, çeşitli boyut, renk ve doku seçenekleriyle, akıllı telefonları aracılığıyla evlerinde deneyimlemelerini ve güvenle satın almalarını sağlayın.",
-      "demo": "Demo İste"
-    },
-    "product": {
-      "title": "'Evde Gör' Teknolojisi ile Satışlarınızı Artırın",
-      "description": "Müşterilerinize 'Evde Gör' teknolojisini sunarak, zeminleri, perdeleri ve mobilyaları için doğru ürünü bulmalarını kolaylaştırabilirsiniz. Bu teknoloji, mimari danışmanlığa gerek kalmadan binlerce ürün arasından seçim yapmalarını sağlar.",
-      "size": "Boyut",
-      "color": "Renk",
-      "viewInSpace": "Mekanda Gör",
-      "arNotSupported": "AR görünümü yalnızca uyumlu mobil cihazlarda kullanılabilir"
-    }
+  "nav": {
+    "home": "Ana Sayfa",
+    "products": "Ürünler / Hizmetler",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "career": "Kariyer"
+  },
+  "hero": {
+    "title": "Halılarınızı Müşterilerinizin Evlerine Sanal Olarak Ulaştırın",
+    "description": "Müşterilerinizin, ürün yelpazenizde bulunan tüm halıları, çeşitli boyut, renk ve doku seçenekleriyle, akıllı telefonları aracılığıyla evlerinde deneyimlemelerini ve güvenle satın almalarını sağlayın.",
+    "demo": "Demo İste"
+  },
+  "product": {
+    "title": "'Evde Gör' Teknolojisi ile Satışlarınızı Artırın",
+    "description": "Müşterilerinize 'Evde Gör' teknolojisini sunarak, zeminleri, perdeleri ve mobilyaları için doğru ürünü bulmalarını kolaylaştırabilirsiniz. Bu teknoloji, mimari danışmanlığa gerek kalmadan binlerce ürün arasından seçim yapmalarını sağlar.",
+    "size": "Boyut",
+    "color": "Renk",
+    "viewInSpace": "Mekanda Gör",
+    "arNotSupported": "AR görünümü yalnızca uyumlu mobil cihazlarda kullanılabilir"
+  },
+  "footer": {
+    "description": "Artırılmış gerçeklik teknolojimizle halı alışverişinin geleceğini deneyimleyin. Satın almadan önce kendi mekanınızda deneyin.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "contactInfo": "İletişim Bilgileri",
+    "rights": "Tüm hakları saklıdır."
   }
+}

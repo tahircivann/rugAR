@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ProductSection from './components/ProductSection';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutUs from './components/AboutUs';
 
@@ -22,7 +23,6 @@ const products = [
     modelSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/antique_turkish_runner_carpet.glb?v=1732356080878',
     iosSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/Antique_Turkish_Runner_Carpet.usdz?v=1732356090535',
   }
-
 ];
 
 function App() {
@@ -30,27 +30,28 @@ function App() {
 
   return (
     <Router>
-      <div className="absoulte min-h-screen bg-white bottom-[-10px]" style={{ fontFamily: 'Inter, sans-serif' }}>
+      <div className="flex flex-col min-h-screen">
         <Navbar />
-        <Routes>
-          <Route path="/rugAR" element={
-            <>
-              <Hero />
-              <h1 className="text-5xl font-bold leading-tight mb-6">
-              </h1>
-              <h2 className="text-4xl font-bold text-center mb-6">
-                {t('product.title')}
-              </h2>
-              <p className="text-gray-600 text-center max-w-3xl mx-auto mb-16">
-                {t('product.description')}
-              </p>
-              {products.map((product, index) => (
-                <ProductSection key={index} product={product} />
-              ))}
-            </>
-          } />
-          <Route path="/about-us" element={<AboutUs />} />
-        </Routes>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/rugAR" element={
+              <>
+                <Hero />
+                <h2 className="text-4xl font-bold text-center mb-6">
+                  {t('product.title')}
+                </h2>
+                <p className="text-gray-600 text-center max-w-3xl mx-auto mb-16">
+                  {t('product.description')}
+                </p>
+                {products.map((product, index) => (
+                  <ProductSection key={index} product={product} />
+                ))}
+              </>
+            } />
+            <Route path="/about-us" element={<AboutUs />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
     </Router>
   );
