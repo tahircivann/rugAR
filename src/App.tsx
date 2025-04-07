@@ -10,18 +10,18 @@ import AboutUs from './components/AboutUs';
 // Define your products
 const products = [
   {
+    name: 'Chair',
+    sizes: ['170x240', '200x290', '240x340'],
+    colors: ['#8B4513', '#D2691E', '#DEB887'],
+    modelSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/textured.glb?v=1744053087275',
+    iosSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/textured.usdz?v=1744053223007',
+  },
+  {
     name: 'Modern Rug',
     sizes: ['150x200', '200x300'],
     colors: ['#8B4513', '#D2691E', '#DEB887'],
     modelSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/rug_with_bottom.glb?v=1732313335740',
     iosSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/RUG_with_Bottom.usdz?v=1732313330609',
-  },
-  {
-    name: 'Turkish Antique Carpet',
-    sizes: ['170x240', '200x290', '240x340'],
-    colors: ['#8B4513', '#D2691E', '#DEB887'],
-    modelSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/antique_turkish_runner_carpet.glb?v=1732356080878',
-    iosSrc: 'https://cdn.glitch.global/00f2d644-93e9-43db-b8e5-cac6ced4b897/Antique_Turkish_Runner_Carpet.usdz?v=1732356090535',
   }
 ];
 
