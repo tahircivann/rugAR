@@ -9,13 +9,13 @@
   },
   "hero": {
     "title": "Liefern Sie Ihre Möbel virtuell in die Häuser Ihrer Kunden",
-    "description": "Lassen Sie Ihre Kunden alle Teppiche aus Ihrem Produktsortiment in ihren Häusern erleben, mit verschiedenen Größen-, Farb- und Texturoptionen, über ihre Smartphones und kaufen Sie sie mit Vertrauen.",
+    "description": "Lassen Sie Ihre Kunden alle Möbel aus Ihrem Produktsortiment in ihren eigenen vier Wänden erleben, mit verschiedenen Größen-, Farb- und Texturoptionen, über ihre Smartphones und kaufen Sie mit Vertrauen.",
     "demo": "Demo anfordern",
     "tryNow": "Jetzt ausprobieren"
   },
   "product": {
     "title": "Steigern Sie Ihre Verkäufe mit 'Zu Hause sehen' Technologie",
-    "description": "Indem Sie Ihren Kunden die 'Zu Hause sehen' Technologie anbieten, können Sie es ihnen leicht machen, das richtige Produkt für ihre Böden, Vorhänge und Möbel zu finden. Diese Technologie ermöglicht es ihnen, aus Tausenden von Produkten zu wählen, ohne architektonische Beratung zu benötigen.",
+    "description": "Indem Sie Ihren Kunden die 'Zu Hause sehen' Technologie anbieten, erleichtern Sie ihnen, die richtigen Möbel für ihre Böden und Vorhänge zu finden. Diese Technologie ermöglicht eine Auswahl aus Tausenden von Optionen ganz ohne architektonische Beratung.",
     "size": "Größe",
     "color": "Farbe",
     "viewInSpace": "Im Raum ansehen",
@@ -23,9 +23,9 @@
   },
   "about": {
     "title": "Unser Team",
-    "description": "Wir sind ein engagiertes Team von Fachleuten, die sich der Revolutionierung des Teppichkauferlebnisses durch innovative AR-Technologie verschrieben haben.",
-    "person1Description": "3D-Software-Ingenieur, spezialisiert auf die Erstellung realistischer 3D-Modelle von Teppichen.",
-    "person2Description": "Business Development Manager, spezialisiert auf die Entwicklung von Partnerschaften mit Teppichherstellern.",
+    "description": "Wir sind ein engagiertes Team von Fachleuten, die sich der Neugestaltung des Möbelkauf-Erlebnisses durch innovative AR-Technologie verschrieben haben.",
+    "person1Description": "3D-Software-Ingenieur, spezialisiert auf realistische 3D-Modelle von Möbeln.",
+    "person2Description": "Business Development Manager, spezialisiert auf Partnerschaften mit Möbelherstellern.",
     "referencesTitle": "Vertraut von führenden Marken"
   },
   "footer": {

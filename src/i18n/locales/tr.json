@@ -8,14 +8,14 @@
     "career": "Kariyer"
   },
   "hero": {
-    "title": "Mobilyalarınız Müşterilerinizin Evlerine Sanal Olarak Ulaştırın",
-    "description": "Müşterilerinizin, ürün yelpazenizde bulunan tüm halıları, çeşitli boyut, renk ve doku seçenekleriyle, akıllı telefonları aracılığıyla evlerinde deneyimlemelerini ve güvenle satın almalarını sağlayın.",
+    "title": "Mobilyalarınızı Müşterilerinizin Evlerine Sanal Olarak Ulaştırın",
+    "description": "Müşterilerinizin, ürün yelpazenizde bulunan tüm mobilyaları, farklı boyut, renk ve doku seçenekleriyle, akıllı telefonları üzerinden kendi evlerinde deneyimlemelerini ve güvenle satın almalarını sağlayın.",
     "demo": "Demo İste",
     "tryNow": "Hemen Dene"
   },
   "product": {
     "title": "'Evde Gör' Teknolojisi ile Satışlarınızı Artırın",
-    "description": "Müşterilerinize 'Evde Gör' teknolojisini sunarak, zeminleri, perdeleri ve mobilyaları için doğru ürünü bulmalarını kolaylaştırabilirsiniz. Bu teknoloji, mimari danışmanlığa gerek kalmadan binlerce ürün arasından seçim yapmalarını sağlar.",
+    "description": "Müşterilerinize 'Evde Gör' teknolojisini sunarak, doğru mobilyayı bulmalarını kolaylaştırabilirsiniz. Bu teknoloji, mimari danışmanlığa gerek kalmadan binlerce seçenek arasından seçim yapmalarına imkan tanır.",
     "size": "Boyut",
     "color": "Renk",
     "viewInSpace": "Mekanda Gör",
@@ -23,9 +23,9 @@
   },
   "about": {
     "title": "Ekibimizle Tanışın",
-    "description": "Yenilikçi AR teknolojisi ile halı alışverişi deneyimini devrimleştirmeye kendini adamış profesyonel bir ekibiz.",
-    "person1Description": "Halıların gerçekçi 3D modellerini oluşturmada uzmanlaşmış 3D Yazılım Mühendisi.",
-    "person2Description": "Halı üreticileri ile ortaklıklar kurmada uzmanlaşmış İş Geliştirme Müdürü.",
+    "description": "Yenilikçi AR teknolojisi ile mobilya alışveriş deneyimini dönüştürmeye kendini adamış profesyonel bir ekibiz.",
+    "person1Description": "Gerçekçi 3D mobilya modelleri oluşturmada uzmanlaşmış 3D Yazılım Mühendisi.",
+    "person2Description": "Mobilya üreticileriyle ortaklıklar kurmada uzmanlaşmış İş Geliştirme Müdürü.",
     "referencesTitle": "Önde Gelen Markalar Tarafından Güvenilen"
   },
   "footer": {

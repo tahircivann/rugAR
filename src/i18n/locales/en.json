@@ -9,13 +9,13 @@
   },
   "hero": {
     "title": "Deliver Your Furniture to Your Customers' Homes Virtually",
-    "description": "Let your customers experience all the carpets in your product range in their homes, with various size, color and texture options, through their smartphones and buy them with confidence.",
+    "description": "Let your customers experience all the furniture in your product range in their homes, with various size, color, and texture options, through their smartphones and buy with confidence.",
     "demo": "Request Demo",
     "tryNow": "Try it now"
   },
   "product": {
     "title": "Increase Your Sales With 'See At Home' Technology",
-    "description": "By offering your customers 'See at Home' technology, you can make it easy for them to find the right product for their floors, curtains and furniture. This technology allows them to choose from thousands of products without the need for architectural consultancy, leading to increased sales conversion rates.",
+    "description": "By offering your customers 'See at Home' technology, you can make it easy for them to find the right furniture for their floors and curtains. This technology allows them to choose from thousands of options without architectural consulting.",
     "size": "Size",
     "color": "Color",
     "viewInSpace": "View In Space",
@@ -23,9 +23,9 @@
   },
   "about": {
     "title": "Meet Our Team",
-    "description": "We are a dedicated team of professionals committed to revolutionizing the carpet shopping experience through innovative AR technology.",
-    "person1Description": "3D Software Engineer, specializing in creating realistic 3D models of carpets.",
-    "person2Description": "Business Development Manager, specializing in creating partnerships with carpet manufacturers.",
+    "description": "We are a dedicated team of professionals committed to revolutionizing the furniture shopping experience through innovative AR technology.",
+    "person1Description": "3D Software Engineer, specializing in creating realistic 3D models of furniture.",
+    "person2Description": "Business Development Manager, specializing in forming partnerships with furniture manufacturers.",
     "referencesTitle": "Trusted By Leading Brands"
   },
   "footer": {
